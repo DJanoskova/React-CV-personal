@@ -1,0 +1,12 @@
+$body-color: $body;
+$body-color: lighten($body, 40%);
+
+$theme-colors: ("primary": $primary, "info": $info);
+
+@import "node_modules/bootstrap/scss/bootstrap-grid";
+
+@import "node_modules/bootstrap/scss/_mixins";
+@import "node_modules/bootstrap/scss/_variables";
+@import "node_modules/bootstrap/scss/_badge";
+@import "node_modules/bootstrap/scss/_forms";
+@import "node_modules/bootstrap/scss/_print";

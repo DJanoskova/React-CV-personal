@@ -1,0 +1,39 @@
+.text {
+  &-muted {
+    color: #999999;
+  }
+
+  &-right {
+    text-align: right;
+  }
+
+  &-center {
+    text-align: center;
+  }
+
+  &-pre-line {
+    white-space: pre-line;
+  }
+}
+
+.small {
+  font-size: 0.7rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $heading;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+p {
+  margin-top: 0.1rem;
+}
