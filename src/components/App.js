@@ -45,6 +45,8 @@ class App extends Component {
                 info@danajanoskova.sk
                 <br />
                 http://danajanoskova.sk
+                <br />
+                https://github.com/DJanoskova
               </SectionWrapper>
               <Projects data={cv.projects} />
             </div>
