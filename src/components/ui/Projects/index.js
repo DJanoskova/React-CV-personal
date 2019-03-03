@@ -6,7 +6,7 @@ import SectionWrapper from "../../hoc/SectionWrapper";
 
 const Projects = ({ data }) => {
   return (
-    <SectionWrapper title="Projects">
+    <SectionWrapper title="Public projects">
       {data.map(project => <Project project={project} key={project.id} />)}
     </SectionWrapper>
   )

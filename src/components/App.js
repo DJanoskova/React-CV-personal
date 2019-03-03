@@ -49,6 +49,7 @@ class App extends Component {
                 https://github.com/DJanoskova
               </SectionWrapper>
               <Projects data={cv.projects} />
+              <Languages data={cv.languages} />
             </div>
           </div>
 
@@ -60,14 +61,7 @@ class App extends Component {
               <Work data={cv.works} />
               <Contributions data={cv.contributions} />
 
-              <div className="row">
-                <div className="col-12 col-sm-4">
-                  <Languages data={cv.languages} />
-                </div>
-                <div className="col-12 col-sm-8">
-                  <Experience data={cv.experience} />
-                </div>
-              </div>
+              <Experience data={cv.experience} />
 
             </div>
           </div>
