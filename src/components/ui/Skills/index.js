@@ -4,11 +4,17 @@ import PropTypes from 'prop-types';
 import SectionWrapper from '../../hoc/SectionWrapper';
 import Skill from './Skill';
 
+import { generateTreemap } from "../../../utils/data";
+
 const Skills = ({ data }) => {
+  const skills = generateTreemap(data);
+
   return (
     <SectionWrapper title="Skills">
-      <div className="badge-group">
-        {data.map(skill => <Skill skill={skill} key={skill.id} />)}
+      <div className="d3-container">
+        {skills.map(skill => (
+          <Skill key={skill.data.id} skill={skill} />
+        ))}
       </div>
     </SectionWrapper>
   )

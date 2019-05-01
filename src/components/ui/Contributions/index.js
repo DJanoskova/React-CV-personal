@@ -7,13 +7,11 @@ import SectionWrapper from '../../hoc/SectionWrapper';
 const Contributions = ({ data }) => {
   return (
     <SectionWrapper title="Open-Source contributions">
-      <div className="form-row">
+      <ul>
         {data.map(contribution => (
-          <div className="col-12 col-md-4" key={contribution.id}>
-            <Contribution contribution={contribution} />
-          </div>
+          <Contribution contribution={contribution} key={contribution.id} />
         ))}
-      </div>
+      </ul>
     </SectionWrapper>
   )
 };

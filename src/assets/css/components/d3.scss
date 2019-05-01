@@ -1,0 +1,27 @@
+.d3 {
+  &-container {
+    width: 673px;
+    height: 160px;
+    position: relative;
+    margin: -25px -5px -5px -5px;
+  }
+
+  &-child {
+    position: absolute;
+    word-break: break-word;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    font-size: 12px;
+    border-radius: 0.5rem;
+    border: 1px #eaeaea solid;
+    color: #888888;
+
+    &.highlight {
+      font-weight: bold;
+      color: #111111;
+    }
+  }
+}

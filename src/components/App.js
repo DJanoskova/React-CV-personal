@@ -1,83 +1,67 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import { GET_CV } from "../actions/cv";
 
-import photo from '../assets/img/photo.jpg';
+import { Work, Skills, Languages } from './ui'
+import Loading from './ui/Loading'
+import About from "./ui/About";
 
-import SectionWrapper from "./hoc/SectionWrapper";
-import { Experience, Work, Skills, Projects, Languages, Contributions } from './ui'
+const App = () => {
+  const [cv, setCv] = useState(null);
 
-class App extends Component {
-  state = {
-    cv: null
+  const fetchData = async () => {
+    const data = await GET_CV();
+    setCv(data);
   };
 
-  componentDidMount () {
-    this.fetchData();
-  }
+  useEffect(() => {
+    fetchData();
+  }, []);
 
-  fetchData = async () => {
-    const cv = await GET_CV();
-    this.setState({ cv });
-  };
+  const handlePrint = () => window.print();
 
-  handlePrint = () => window.print();
+  if (!cv) return <Loading />;
 
-  render () {
-    const { cv } = this.state;
-    if (!cv) return (
-      <div className="loading">
-        <span className="loading-text">This site is hosted on heroku.<br />Please be patient while it loads, it can take about 10 seconds.
-        </span>
-      </div>
-    );
+  const { about, projects, languages, skills, contributions, works } = cv;
 
-    return (
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-12 col-md-4">
-            <div className="content">
-              <img src={photo} className="avatar" alt="Dana Janoskova" />
-              <p className="text-muted text-pre-line">
-                {cv.about.about}
-              </p>
-              <SectionWrapper title="Contact">
-                info@danajanoskova.sk
-                <br />
-                http://danajanoskova.sk
-                <br />
-                https://github.com/DJanoskova
-              </SectionWrapper>
-              <Projects data={cv.projects} />
-              <Languages data={cv.languages} />
+  return (
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col-12 col-md-4">
+          <About
+            about={about}
+            projects={projects}
+            languages={languages}
+            contributions={contributions}
+          />
+        </div>
+
+        <div className="col-12 col-md-8">
+          <div className="content">
+            <h1>Dana Janoskova</h1>
+
+            <Skills data={skills} />
+            <Work data={works} />
+            <div className="row">
+              <div className="col-16 col-md-6">
+                <Languages data={languages} />
+              </div>
             </div>
-          </div>
 
-          <div className="col-12 col-md-8">
-            <div className="content">
-              <h1>Dana Janoskova</h1>
-
-              <Skills data={cv.skills} />
-              <Work data={cv.works} />
-              <Contributions data={cv.contributions} />
-
-              <Experience data={cv.experience} />
-
-            </div>
           </div>
         </div>
-        <div className="content text-center noprint">
-          2018-2019 - Dana Janoskova
-          <br />
-          Made with React and AdonisJs
-          <br />
-          <button type="button" onClick={this.handlePrint} className="link">
-            Print
-          </button>
-        </div>
       </div>
-    );
-  }
-}
+      <div className="content text-center noprint">
+        2018-2019 - Dana Janoskova
+        <br />
+        Made with React and AdonisJs
+        <br />
+        <button type="button" onClick={handlePrint} className="link">
+          Print
+        </button>
+      </div>
+    </div>
+  );
+};
 
 export default App;

@@ -3,14 +3,16 @@ import PropTypes from 'prop-types';
 
 const Contribution = ({ contribution }) => {
   return (
-    <div className="card small">
+    <li>
       <a href={contribution.url} target="_blank" rel="noopener noreferrer">
         {contribution.name}
-      </a>
-      <p className="text-muted">
+      </a> - <span className="text-muted small">
+        {contribution.source}
+      </span>
+      <p>
         {contribution.description}
       </p>
-    </div>
+    </li>
   )
 };
 
