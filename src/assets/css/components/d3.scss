@@ -1,7 +1,7 @@
 .d3 {
   &-container {
     width: 673px;
-    height: 160px;
+    height: 220px;
     position: relative;
     margin: -25px -5px -5px -5px;
   }
@@ -13,15 +13,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3px;
+    //padding: 3px;
     font-size: 12px;
     border-radius: 0.5rem;
-    border: 1px #eaeaea solid;
     color: #888888;
+    //border: 1px red solid;
 
     &.highlight {
       font-weight: bold;
-      color: #111111;
+      //color: #111111;
+      color: $primary;
+    }
+
+    &:hover {
+      background: #eaeaea;
+    }
+
+    &.rotate {
+      writing-mode: vertical-lr;
     }
   }
 }

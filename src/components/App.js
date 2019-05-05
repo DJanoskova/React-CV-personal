@@ -40,7 +40,7 @@ const App = () => {
           <div className="content">
             <h1>Dana Janoskova</h1>
 
-            <Skills data={skills} />
+            <Skills data={JSON.parse(skills.content)} />
             <Work data={works} />
             <div className="row">
               <div className="col-16 col-md-6">
