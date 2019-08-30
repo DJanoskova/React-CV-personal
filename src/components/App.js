@@ -9,12 +9,12 @@ import About from "./ui/About";
 const App = () => {
   const [cv, setCv] = useState(null);
 
-  const fetchData = async () => {
-    const data = await GET_CV();
-    setCv(data);
-  };
-
   useEffect(() => {
+    const fetchData = async () => {
+      const data = await GET_CV();
+      setCv(data);
+    };
+
     fetchData();
   }, []);
 
@@ -40,7 +40,7 @@ const App = () => {
           <div className="content">
             <h1>Dana Janoskova</h1>
 
-            <Skills data={JSON.parse(skills.content)} />
+            <Skills data={skills} />
             <Work data={works} />
             <div className="row">
               <div className="col-16 col-md-6">

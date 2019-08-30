@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import shuffle from 'lodash/shuffle';
 
 import SectionWrapper from '../../hoc/SectionWrapper';
 import Skill from './Skill';
@@ -7,7 +8,13 @@ import Skill from './Skill';
 import { generateTreemap } from "../../../utils/data";
 
 const Skills = ({ data }) => {
-  const skills = generateTreemap(data);
+  const treemap = {
+    name: '',
+    value: 1,
+    children: shuffle(data)
+  }
+
+  const skills = generateTreemap(treemap);
 
   return (
     <SectionWrapper title="Skills">
@@ -21,7 +28,7 @@ const Skills = ({ data }) => {
 };
 
 Skills.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.array.isRequired
 };
 
 export default Skills

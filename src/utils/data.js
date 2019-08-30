@@ -2,7 +2,7 @@ import { treemap, hierarchy, treemapBinary } from 'd3';
 
 export const generateTreemap = data => {
   const treemapLayout = treemap()
-    .size([673, 220])
+    .size([673, 230])
     .tile(treemapBinary);
 
   const root = hierarchy(data);

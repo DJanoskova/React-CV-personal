@@ -9,13 +9,13 @@ const Skill = ({ skill }) => {
 
   const ratio = width / height;
   const highlight = value >= 50;
-  const fontSize = value / 3 + 7;
+  const fontSize = value / 3.5 + 7;
 
   const classes = classNames('d3-child', { highlight, rotate: ratio < 0.7 });
 
   return (
     <div className={classes} style={{ top: y0, left: x0, width, height, fontSize }}>
-      {skill.data.name}
+      {skill.data.content}
     </div>
   )
 };
