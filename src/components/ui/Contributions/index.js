@@ -6,7 +6,7 @@ import SectionWrapper from '../../hoc/SectionWrapper';
 
 const Contributions = ({ data }) => {
   return (
-    <SectionWrapper title="Open-Source contributions">
+    <SectionWrapper title="Open-Source works">
       <ul>
         {data.map(contribution => (
           <Contribution contribution={contribution} key={contribution.id} />
