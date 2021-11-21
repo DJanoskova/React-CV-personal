@@ -262,5 +262,31 @@
       "name": "Vuidget",
       "source": "GitHub"
     }
+  ],
+  "workshops": [
+    {
+      "date": "2021-06-09",
+      "organizer": "Vue.js Global Summit",
+      "title": "Get started with Vuex",
+      "description": "A live coding session to demo vuex practical vuex usage."
+    },
+    {
+      "date": "2019-12-10",
+      "organizer": "Accenture Architecture workshop Madrid",
+      "title": "Flutter deep dive",
+      "description": "A live coding workshop presenting Flutter application development fundamentals."
+    },
+    {
+      "date": "2019-10-10",
+      "organizer": "OpenSlava 2019",
+      "title": "React Context API - create a reusable Snackbar!",
+      "description": "A React Context workshop with a presentation and live coding a Material UI Snackbar."
+    },
+    {
+      "date": "2019-07-10",
+      "organizer": "Accenture Summer in IT 2019",
+      "title": "React.js teacher",
+      "description": "The primary teacher in a 5-day long React fundamentals course, which was a part of a full-stack bootcamp."
+    }
   ]
 }

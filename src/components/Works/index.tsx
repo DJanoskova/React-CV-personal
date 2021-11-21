@@ -3,7 +3,7 @@ import React, { FunctionComponent } from 'react';
 import { WorkType } from '../../types/cv';
 
 import SectionWrapper from '../hoc/SectionWrapper';
-import Work from './Works';
+import Work from './Work';
 
 type IProps = {
   data: WorkType[];

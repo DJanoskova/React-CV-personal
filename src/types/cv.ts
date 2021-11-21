@@ -38,6 +38,13 @@ export type WorkType = {
   project: WorkProjectType;
 };
 
+export type WorkshopType = {
+  date: string;
+  organizer: string;
+  title: string;
+  description: string;
+};
+
 export type CVType = {
   about: string;
   contributions: ContributonType[];
@@ -45,4 +52,5 @@ export type CVType = {
   projects: ProjectType[];
   skills: SkillType[];
   works: WorkType[];
+  workshops: WorkshopType[];
 };

@@ -22,12 +22,22 @@ const About: FunctionComponent<IProps> = ({ about, projects, contributions }) =>
         alt="Dana Janoskova"
       />
       <div className="mb-4">{about}</div>
-      <SectionWrapper title="Social">
-        http://danajanoskova.sk
+      <SectionWrapper title="Links">
+        <a href="http://danajanoskova.sk" target="_blank" rel="noreferrer">
+          danajanoskova.sk
+        </a>
         <br />
-        https://github.com/DJanoskova
+        <a href="https://github.com/DJanoskova" target="_blank" rel="noreferrer">
+          github.com/DJanoskova
+        </a>
         <br />
-        https://medium.com/@danajanoskova
+        <a href="https://www.linkedin.com/in/dana-janoskova/" target="_blank" rel="noreferrer">
+          www.linkedin.com/in/dana-janoskova/
+        </a>
+        <br />
+        <a href="https://medium.com/@danajanoskova" target="_blank" rel="noreferrer">
+          medium.com/@danajanoskova
+        </a>
       </SectionWrapper>
       <Projects data={projects} />
       <Contributions data={contributions} />
