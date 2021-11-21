@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  color: theme('colors.blue.500');
+}
+
+body {
+  color: theme('colors.gray.700');
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-rotate {
+  writing-mode: tb-rl;
+  left: 50%;
+  transform: translateX(-50%) rotate(180deg);
+}
