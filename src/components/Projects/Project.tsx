@@ -12,8 +12,7 @@ const Project: FunctionComponent<IProps> = ({ project }) => {
         href={`https://${project.name}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="block font-bold"
-      >
+        className="block font-bold">
         {project.name}
       </a>
       <em>{project.type}</em>
