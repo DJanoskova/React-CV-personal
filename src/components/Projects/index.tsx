@@ -12,7 +12,7 @@ const Projects: FunctionComponent<IProps> = ({ data }) => {
   return (
     <SectionWrapper title="Public projects">
       {data.map((project) => (
-        <Project project={project} key={project.id} />
+        <Project project={project} key={project.name} />
       ))}
     </SectionWrapper>
   );

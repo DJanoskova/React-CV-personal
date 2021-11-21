@@ -13,7 +13,7 @@ const Works: FunctionComponent<IProps> = ({ data }) => {
   return (
     <SectionWrapper title="Workplaces and positions">
       {data.map((work) => (
-        <Work work={work} key={work.id} />
+        <Work work={work} key={work.name} />
       ))}
     </SectionWrapper>
   );

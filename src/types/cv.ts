@@ -1,11 +1,4 @@
-export type AboutType = {
-  id: number;
-  about: string;
-  characteristics: string;
-};
-
 export type ContributonType = {
-  id: number;
   description: string;
   name: string;
   source: string;
@@ -13,14 +6,11 @@ export type ContributonType = {
 };
 
 export type LanguageType = {
-  id: number;
   level: string;
   name: string;
-  priority: number;
 };
 
 export type ProjectType = {
-  id: number;
   name: string;
   summary: string;
   technologies: string;
@@ -28,32 +18,28 @@ export type ProjectType = {
 };
 
 export type SkillType = {
-  id: number;
   content: string;
   value: number;
 };
 
 export type WorkProjectType = {
-  id: number;
   beginAt: string;
   endedAt?: string;
   description?: string;
-  name: string;
   position: string;
   technologies: string;
 };
 
 export type WorkType = {
-  id: number;
   beginAt: string;
   endedAt?: string;
   description?: string;
   name: string;
-  projects: WorkProjectType[];
+  project: WorkProjectType;
 };
 
 export type CVType = {
-  about: AboutType;
+  about: string;
   contributions: ContributonType[];
   languages: LanguageType[];
   projects: ProjectType[];

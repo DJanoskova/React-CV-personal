@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
-import { GET_CV } from './actions/cv';
 import { CVType } from './types/cv';
 
 import Work from './components/Work';
@@ -9,17 +8,10 @@ import Languages from './components/Languages';
 import Loading from './components/Loading';
 import About from './components/About';
 
+import cvData from './data.json';
+
 const App = () => {
-  const [cv, setCv] = useState<CVType | null>(null);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const data = await GET_CV();
-      setCv(data);
-    };
-
-    fetchData();
-  }, []);
+  const [cv] = useState<CVType>(cvData as CVType);
 
   // const handlePrint = () => window.print();
 
@@ -43,7 +35,7 @@ const App = () => {
       <div className="content text-center noprint text-gray-400">
         2021 - Dana Janoskova
         <br />
-        Made with React, Tailwind and AdonisJs
+        Made with React and Tailwind
       </div>
     </div>
   );

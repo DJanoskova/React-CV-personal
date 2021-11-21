@@ -21,7 +21,7 @@ const Skills: FunctionComponent<IProps> = ({ data }) => {
     <SectionWrapper title="Relevant skills">
       <div className="h-36 flex items-end mt-2">
         {skills.map((skill) => (
-          <Skill key={skill.id} skill={skill} />
+          <Skill key={skill.content} skill={skill} />
         ))}
       </div>
     </SectionWrapper>

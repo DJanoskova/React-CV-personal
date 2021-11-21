@@ -18,7 +18,7 @@ const Languages: FunctionComponent<IProps> = ({ data }) => {
       <table>
         <tbody>
           {languages.map((language) => (
-            <Language language={language} key={language.id} />
+            <Language language={language} key={language.name} />
           ))}
         </tbody>
       </table>

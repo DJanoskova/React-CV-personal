@@ -12,7 +12,7 @@ type IProps = {
 
 const Work: FunctionComponent<IProps> = ({ work }) => {
   const dateFormat = 'MMM yyyy';
-  const project = work.projects[0];
+  const project = work.project;
   const technologies: string[] = JSON.parse(project.technologies);
   const start = format(new Date(project.beginAt), dateFormat);
   const end = project.endedAt ? format(new Date(project.endedAt), dateFormat) : 'Current';

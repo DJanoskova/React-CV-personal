@@ -1,0 +1,266 @@
+{
+  "about": "A front-end architect, a React.js coach, a Medium publisher and a speaker. My current stack consists of JS, TS, Node.js and Dart, coding Vue.js, React or Flutter applications.\n\nI focus greatly on delivering good UX, writing clean code and high performant applications.",
+  "skills": [
+    {
+      "content": "JavaScript",
+      "value": 100
+    },
+    {
+      "content": "Vue.js",
+      "value": 90
+    },
+    {
+      "content": "Vuex",
+      "value": 55
+    },
+    {
+      "content": "React",
+      "value": 90
+    },
+    {
+      "content": "React native",
+      "value": 15
+    },
+    {
+      "content": "UI/UX design",
+      "value": 20
+    },
+    {
+      "content": "Mentoring",
+      "value": 40
+    },
+    {
+      "content": "HTML",
+      "value": 50
+    },
+    {
+      "content": "Adobe Photoshop",
+      "value": 20
+    },
+    {
+      "content": "SCSS",
+      "value": 80
+    },
+    {
+      "content": "SQL",
+      "value": 10
+    },
+    {
+      "content": "Architecture design",
+      "value": 35
+    },
+    {
+      "content": "GIT",
+      "value": 60
+    },
+    {
+      "content": "TypeScript",
+      "value": 60
+    },
+    {
+      "content": "CI/CD",
+      "value": 15
+    },
+    {
+      "content": "Docker",
+      "value": 15
+    },
+    {
+      "content": "Flutter",
+      "value": 30
+    },
+    {
+      "content": "AdonisJs",
+      "value": 50
+    },
+    {
+      "content": "Jest + Enzyme",
+      "value": 40
+    },
+    {
+      "content": "Tailwind",
+      "value": 35
+    },
+    {
+      "content": "Express",
+      "value": 50
+    }
+  ],
+  "works": [
+    {
+      "name": "MoonPay (remote)",
+      "beginAt": "2021-09-27T00:00:00.000Z",
+      "project": {
+        "position": "Front-end Engineer",
+        "technologies": "[\"React\", \"TypeScript\", \"GraphQL\", \"Node.js\", \"Enzyme\", \"jest\", \"Express\", \"Storybook\", \"Figma\", \"Scrum\"]",
+        "description": "- Maintaing and implementing new features for the MoonPay Buy & Sell widget\n- Working on an internal Storybook component library\n- Driving unit testing and code coverage increase efforts in the codebase",
+        "beginAt": "2021-09-27T00:00:00.000Z"
+      }
+    },
+    {
+      "name": "Microsoft (Prague)",
+      "beginAt": "2020-06-01T00:00:00.000Z",
+      "endedAt": "2021-09-30T00:00:00.000Z",
+      "project": {
+        "position": "Senior Software Engineer, Front-end lead",
+        "role": "",
+        "technologies": "[\"React\", \"TypeScript\", \"Mobx-state-tree\", \"ApexCharts\", \"SCSS\", \"Azure DevOps\", \"Kanban\"]",
+        "description": "- Leading the architecture and visual design of an internal application that provides insight into our products' various performance metrics.\n- Implementing performance monitoring tools inside Microsoft Teams.",
+        "beginAt": "2020-06-01T00:00:00.000Z",
+        "endedAt": "2021-09-30T00:00:00.000Z"
+      }
+    },
+    {
+      "name": "Accenture (Bratislava)",
+      "description": "Developing and deploying services in a microservice structured enterprise project, using Apache Kafka for cross-service comunication.",
+      "beginAt": "2018-09-01T00:00:00.000Z",
+      "endedAt": "2020-04-30T00:00:00.000Z",
+      "project": {
+        "position": "Software Engineer - Senior Analyst",
+        "technologies": "[\"React\", \"TypeScript\", \"Node.js\", \"SCSS\", \"Mobx-state-tree\", \"Material UI\", \"git\", \"Vue.js\", \"Docker\", \"jest\", \"enzyme\", \"PostgreSQL\", \"d3\", \"Flutter\", \"dart\"]",
+        "description": "- A React + Node.js developer, UX/UI designer and front-end architect for a banking loan application interface.\n\n- A Flutter/Dart developer for a reference mobile application for an Architecture workshop, working in a team of 2 - a side project.\n\n- Designing and developing multiple UIs for data management in an event-driven application, using Apache Kafka and Reactive Interaction Gateway for real-time data processing. Leading front-end and coaching new joiners. Maintaining Node.js services.\n\n- A front-end developer for a presentational pilot project, working with Vue.js to create customer-facing banking various UIs.\n\n- Designing and developing a UI for software architects with focus on various nested data visualizations (d3) and CRUD operatios. Allows pptx export of d3 treemap calculated data.",
+        "beginAt": "2018-09-01T00:00:00.000Z",
+        "endedAt": "2020-04-01T00:00:00.000Z"
+      }
+    },
+    {
+      "name": "Materna GmbH Information & Communications (Bratislava)",
+      "description": "Development of reactive single-page multi-language applications (mostly in Vue.JS), focused on European market. Designing and coding the functionality of friendly and intuitive Graphical User Interfaces that provide pleasant experience. ",
+      "beginAt": "2017-09-01T00:00:00.000Z",
+      "endedAt": "2018-08-31T00:00:00.000Z",
+      "project": {
+        "position": "Software Engineer",
+        "technologies": "[\"Vue.JS\", \"SPA\", \"JavaScript (ES6)\", \"SCSS\", \"UX\", \"Adobe Photoshop\", \"git\", \"Bootstrap\", \"PHP\"]",
+        "description": "Development of reactive single-page multi-language applications (mostly in Vue.JS), focused on European market. Designing and coding the functionality of friendly and intuitive Graphical User Interfaces that provide pleasant experience.",
+        "beginAt": "2017-09-01T00:00:00.000Z",
+        "endedAt": "2018-08-01T00:00:00.000Z"
+      }
+    },
+    {
+      "name": "Freelance front-end developer & designer (Prague)",
+      "description": "Development of my own single-page social network (Vue.JS, PHP)\nDevelopment of my own e-shop (Vue.JS, PHP) \nUpgrading my work time tracking application (wixi.it) \nDesigning and upgrading my personal website (danajanoskova.sk) into Vue.JS \nWorking on small clients’ projects",
+      "beginAt": "2017-03-01T00:00:00.000Z",
+      "endedAt": "2017-08-01T00:00:00.000Z",
+      "project": {
+        "position": "Freelance developer - employed & self-employed",
+        "technologies": "[\"Symfony\", \"SCSS\", \"jQuery\", \"Grunt\", \"Bootstrap\", \"Vue.JS\", \"Adobe Photoshop\", \"PHP\", \"git\"]",
+        "description": "- Development of a new website CMS with the ability to build your websites in drag&drop style, with customizable grid following each bootstrap breakpoint (draggable column content widths on various devices), used to make both personal small sites and big e-shops. Coding the front-end for various clients’ websites.\n\n- Working on my own side projects, public applications and development of an e-shop system integrated with PayPal, with an Admin interface.\n\n- Creation of an application (interactive template based on the company's wireframe) for a site focused on public research and user feedback, UX/UI design.",
+        "beginAt": "2017-04-01T00:00:00.000Z",
+        "endedAt": "2017-09-01T00:00:00.000Z"
+      }
+    },
+    {
+      "name": "TRIM Broker, a.s. (Bratislava)",
+      "description": "Designing an application made in React focused on helping market traders. The app included daily news, calendars, charts and analysis - with likes and commenting system. The members could befriend one another, send personal messages, check the activity feed and filter the articles based on various parameters.",
+      "beginAt": "2016-03-01T00:00:00.000Z",
+      "endedAt": "2017-03-01T00:00:00.000Z",
+      "project": {
+        "position": "Junior Full-stack developer",
+        "technologies": "[\"Symfony\", \"twig\", \"PHP\", \"HTML\", \"jQuery\", \"React\", \"SCSS\", \"git\", \"grunt\", \"Adobe Illustrator\", \"Adobe InDesign\", \"Bootstrap\"]",
+        "description": "Designing and coding an application made in React focused on helping market traders. The app included daily news, calendars, charts and analysis - with likes and commenting system. The members could befriend one another, send personal messages, check the activity feed and filter the articles based on various parameters.",
+        "beginAt": "2016-03-01T00:00:00.000Z",
+        "endedAt": "2017-03-01T00:00:00.000Z"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "name": "react-handbook.danajanoskova.sk",
+      "type": "(a SPA interactive code editor guide)",
+      "technologies": "- React.js, JavaScript, Babel, SCSS, Heroku",
+      "summary": "An interactive code snippet guide to teach you how to use React in real world applications.\nWe start with basic knowledge and examples and get deeper into discovering hooks, routing, common use cases, component nesting, API calls - everything you could possibly encounter when coding an app of your own!"
+    },
+    {
+      "name": "playbanggame.online",
+      "type": "(a PWA multiplayer online game)",
+      "technologies": "- Vue.js, JavaScript, Adonis.js (Node.js), MySQL, Netlify, Heroku",
+      "summary": "A non-monetized internet version of the popular BANG! card game, which allows people from all around the world to play together on any device with internet connection."
+    },
+    {
+      "name": "uvar.sk",
+      "type": "(a SPA personal project)",
+      "technologies": "- Vue.JS (Vue CLI 3), JavaScript (ES6, ES7), Bootstrap, Laravel REST API (PHP), MySQL, SASS, design",
+      "summary": "Uvar.sk is a delicious place designed to to store all your favourite recipes and filter them based on the used ingredients. Create your own recipe collection with the option to add other users' recipes as your favourite. Collecting recipes has never been easier!"
+    },
+    {
+      "name": "danajanoskova.sk",
+      "type": "(a personal website)",
+      "technologies": "- Vue.JS, JavaScript (ES6), Symfony (PHP), MySQL, SASS, design",
+      "summary": "My personal website which contains my projects, my skills and contact information."
+    }
+  ],
+  "languages": [
+    {
+      "name": "Slovak",
+      "level": "native"
+    },
+    {
+      "name": "English",
+      "level": "fluent"
+    },
+    {
+      "name": "German",
+      "level": "basics"
+    },
+    {
+      "name": "French",
+      "level": "basics"
+    }
+  ],
+  "contributions": [
+    {
+      "url": "https://www.npmjs.com/package/vuex-but-for-react",
+      "description": "A state management library for React, heavily inspired by vuex",
+      "name": "vuex-but-for-react",
+      "source": "NPM"
+    },
+    {
+      "url": "https://github.com/lahmatiy/react-render-tracker",
+      "description": "A tool to discover performance issues related to unintended re-renders. Working in a team during Microsoft-organized hackathon.",
+      "name": "React Render Tracker",
+      "source": "GitHub"
+    },
+    {
+      "url": "https://burger-builder.danajanoskova.sk/",
+      "description": "A small open-source app that allows you to build your own burger, supports drag&drop interaction and calculates the final price",
+      "name": "Burger Builder",
+      "source": "GitHub + Netlify"
+    },
+    {
+      "url": "https://medium.com/js-dojo/vue-js-manage-your-modal-window-s-effortlessly-using-eventbus-518977195eed",
+      "description": "An article + open-source repository about Modal window management in Vue.js",
+      "name": "Vue.js — Manage your Modal window(s) effortlessly using EventBus",
+      "source": "Medium"
+    },
+    {
+      "url": "https://gitlab.com/djanoskova/adonisjs-sockets-monorepo",
+      "description": "A monorepo with working websocket communication example projects and Gitlab automatic deployment",
+      "name": "AdonisJS & React sockets",
+      "source": "GitLab"
+    },
+    {
+      "url": "https://tree-data-builder.herokuapp.com/",
+      "description": "A small open-source app to make data trees optimized for d3 structure quickly",
+      "name": "Tree Data Builder",
+      "source": "GitHub"
+    },
+    {
+      "url": "https://itnext.io/how-i-tried-to-validate-react-forms-with-hooks-31634fc5385b",
+      "description": "An article with demo dedicated to easily validating React forms with hooks",
+      "name": "React form hook validator",
+      "source": "Medium"
+    },
+    {
+      "url": "https://flex-helper.danajanoskova.sk",
+      "description": "A small open-source app to make designing flex layouts faster.",
+      "name": "Flex Helper",
+      "source": "GitHub"
+    },
+    {
+      "url": "https://github.com/DJanoskova/Vuidget",
+      "description": "A GitHub repository that contains an example source code for a custom HTML element Vue.js widget",
+      "name": "Vuidget",
+      "source": "GitHub"
+    }
+  ]
+}

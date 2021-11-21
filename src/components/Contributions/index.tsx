@@ -14,7 +14,7 @@ const Contributions: FunctionComponent<IProps> = ({ data }) => {
     <SectionWrapper title="Open-Source works">
       <ul>
         {data.map((contribution) => (
-          <Contribution contribution={contribution} key={contribution.id} />
+          <Contribution contribution={contribution} key={contribution.name} />
         ))}
       </ul>
     </SectionWrapper>
