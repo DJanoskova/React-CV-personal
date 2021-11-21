@@ -18,8 +18,8 @@ const Skills: FunctionComponent<IProps> = ({ data }) => {
   const skills = getOrderedSkills(data);
 
   return (
-    <SectionWrapper title="Relevant skills">
-      <div className="h-36 flex items-end mt-2">
+    <SectionWrapper title="Relevant skills" className="overflow-x-auto">
+      <div className="h-36 flex items-end mt-2" style={{ minWidth: '500px' }}>
         {skills.map((skill) => (
           <Skill key={skill.content} skill={skill} />
         ))}
