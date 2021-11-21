@@ -28,7 +28,7 @@ const App = () => {
   const { about, projects, languages, skills, contributions, works } = cv;
 
   return (
-    <div className="max-w-screen-lg m-auto py-6">
+    <div className="max-w-screen-lg m-auto py-6 px-4 lg:px-0">
       <div className="block lg:flex">
         <div className="mr-0 lg:mr-8 w-full lg:w-80 flex-shrink-0">
           <About about={about} projects={projects} contributions={contributions} />
