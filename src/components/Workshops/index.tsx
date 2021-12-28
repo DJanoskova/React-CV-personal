@@ -12,7 +12,7 @@ type IProps = {
 const Workshops: FunctionComponent<IProps> = ({ data }) => {
   return (
     <SectionWrapper title="Presentations & workshops">
-      <div className="block lg:flex">
+      <div>
         {data.map((workshop) => (
           <Workshop data={workshop} key={workshop.title} />
         ))}

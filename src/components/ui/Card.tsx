@@ -5,7 +5,7 @@ type IProps = {
 };
 
 const Card: FunctionComponent<IProps> = ({ children, className }) => {
-  return <div className={`p-4 shadow-lg mb-4 rounded-lg ${className}`}>{children}</div>;
+  return <div className={`p-4 shadow-lg mb-4 rounded-lg ${className || ''}`}>{children}</div>;
 };
 
 export default Card;

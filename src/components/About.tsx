@@ -32,7 +32,7 @@ const About: FunctionComponent<IProps> = ({ about, projects, contributions }) =>
         </a>
         <br />
         <a href="https://www.linkedin.com/in/dana-janoskova/" target="_blank" rel="noreferrer">
-          www.linkedin.com/in/dana-janoskova/
+          linkedin.com/in/dana-janoskova/
         </a>
         <br />
         <a href="https://medium.com/@danajanoskova" target="_blank" rel="noreferrer">
