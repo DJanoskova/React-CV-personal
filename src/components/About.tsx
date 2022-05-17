@@ -22,6 +22,9 @@ const About: FunctionComponent<IProps> = ({ about, projects, contributions }) =>
         alt="Dana Janoskova"
       />
       <div className="mb-4 whitespace-pre-wrap">{about}</div>
+      <SectionWrapper title="Contact" className="show-print">
+        info@danajanoskova.sk
+      </SectionWrapper>
       <Projects data={projects} />
       <Contributions data={contributions} />
       <SectionWrapper title="Links">

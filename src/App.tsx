@@ -32,7 +32,7 @@ const App = () => {
         <br />
         Made with React and Tailwind
         <br />
-        <a href="#" onClick={handlePrint}>
+        <a href="#" onClick={handlePrint} className="hide-print">
           Print
         </a>
       </div>
