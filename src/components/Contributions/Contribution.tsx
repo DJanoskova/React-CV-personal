@@ -12,7 +12,10 @@ const Contribution: FunctionComponent<IProps> = ({ contribution }) => {
       <a href={contribution.url} target="_blank" rel="noopener noreferrer">
         {contribution.name}
       </a>{' '}
-      - <span className="text-gray-400">{contribution.source}</span>
+      -{' '}
+      <span className="text-gray-400">
+        {contribution.source}, {contribution.role}
+      </span>
       <p>{contribution.description}</p>
     </li>
   );

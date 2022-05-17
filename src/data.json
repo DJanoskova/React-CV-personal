@@ -1,5 +1,5 @@
 {
-  "about": "A front-end architect and engineer, a Medium publisher and a speaker. My current stack consists of JS, TS, Node.js and Dart, coding Vue.js, React or Flutter applications.\n\nI focus greatly on delivering good UX, writing clean code and high performant applications.",
+  "about": "I have a passion for beautiful user interfaces, performant applications and writing algorithms. My most common stack is React, TypeScript and Node.js, having also past experience with Vue.js, Flutter and Dart.\n\nIn my free time, I enjoy publishing applications and libraries of my own. I have written several articles on Medium focusing on best practices in React and Vue.js. and I have presented several workshops focused on React, hooks and context usage.",
   "skills": [
     {
       "content": "JavaScript",
@@ -7,7 +7,7 @@
     },
     {
       "content": "Vue.js",
-      "value": 90
+      "value": 70
     },
     {
       "content": "Vuex",
@@ -15,7 +15,7 @@
     },
     {
       "content": "React",
-      "value": 90
+      "value": 95
     },
     {
       "content": "React native",
@@ -55,7 +55,7 @@
     },
     {
       "content": "TypeScript",
-      "value": 60
+      "value": 70
     },
     {
       "content": "CI/CD",
@@ -88,13 +88,25 @@
   ],
   "works": [
     {
+      "name": "Maze (remote)",
+      "beginAt": "2022-03-01T00:00:00.000Z",
+      "project": {
+        "position": "Senior Full-Stack Engineer",
+        "technologies": "[\"React\", \"React hooks\", \"TypeScript\", \"Styled Components\", \"Node.js\", \"Jest\", \"GitHub\", \"Figma\", \"Split.io\", \"Amplitude\"]",
+        "description": "- Working in a remote team made of engineers and designers\n- Overseeing the scope delivery for various data visualizations\n- Engineering and writing challenging algorithms for data visualizations\n- Implementing render and performance improvements for smoother user interactions\n- Participating in bug-fixing rotations",
+        "beginAt": "2022-03-01T00:00:00.000Z"
+      }
+    },
+    {
       "name": "MoonPay (remote)",
       "beginAt": "2021-09-27T00:00:00.000Z",
+      "endedAt": "2022-02-28T00:00:00.000Z",
       "project": {
         "position": "Front-end Engineer",
         "technologies": "[\"React\", \"TypeScript\", \"GraphQL\", \"Node.js\", \"Enzyme\", \"jest\", \"Express\", \"Storybook\", \"Figma\", \"Scrum\"]",
         "description": "- Maintaing and implementing new features for the MoonPay Buy & Sell widget\n- Working on an internal Storybook component library\n- Driving unit testing and code coverage increase efforts in the codebase",
-        "beginAt": "2021-09-27T00:00:00.000Z"
+        "beginAt": "2021-09-27T00:00:00.000Z",
+        "endedAt": "2022-02-28T00:00:00.000Z"
       }
     },
     {
@@ -165,6 +177,12 @@
   ],
   "projects": [
     {
+      "name": "blokep.netlify.app",
+      "type": "(a designing tool for front-end engineers)",
+      "technologies": "- React.js, TypeScript, vuex-but-for-react, Netlify",
+      "summary": "An app that lets you create Blocks of HTML & CSS, nest them, extend them, reuse them, pass children inside and change your layout extremely fast with dragging your blocks around and leveraging the option to use your defined CSS color variables"
+    },
+    {
       "name": "react-handbook.danajanoskova.sk",
       "type": "(a SPA interactive code editor guide)",
       "technologies": "- React.js, JavaScript, Babel, SCSS, Heroku",
@@ -173,20 +191,20 @@
     {
       "name": "playbanggame.online",
       "type": "(a PWA multiplayer online game)",
-      "technologies": "- Vue.js, JavaScript, Adonis.js (Node.js), MySQL, Netlify, Heroku",
+      "technologies": "- Vue.js, JavaScript, Adonis.js (Node.js), MySQL, Websocket, Netlify, Heroku",
       "summary": "A non-monetized internet version of the popular BANG! card game, which allows people from all around the world to play together on any device with internet connection."
+    },
+    {
+      "name": "retro-tickets.herokuapp.com",
+      "type": "(a Scrum Retrospective feedback board)",
+      "technologies": "- Vue.js, Node.js, MySQL, Websocket, SCSS, Heroku",
+      "summary": "A feedback board with the option to toggle visibility of participants' comments that also contains planning poker, providing real-time feedback using websockets"
     },
     {
       "name": "uvar.sk",
       "type": "(a SPA personal project)",
       "technologies": "- Vue.JS (Vue CLI 3), JavaScript (ES6, ES7), Bootstrap, Laravel REST API (PHP), MySQL, SASS, design",
       "summary": "Uvar.sk is a delicious place designed to to store all your favourite recipes and filter them based on the used ingredients. Create your own recipe collection with the option to add other users' recipes as your favourite. Collecting recipes has never been easier!"
-    },
-    {
-      "name": "danajanoskova.sk",
-      "type": "(a personal website)",
-      "technologies": "- Vue.JS, JavaScript (ES6), Symfony (PHP), MySQL, SASS, design",
-      "summary": "My personal website which contains my projects, my skills and contact information."
     }
   ],
   "languages": [
@@ -212,55 +230,64 @@
       "url": "https://www.npmjs.com/package/vuex-but-for-react",
       "description": "A state management library for React, heavily inspired by vuex",
       "name": "vuex-but-for-react",
-      "source": "NPM"
+      "source": "NPM",
+      "role": "Owner"
     },
     {
       "url": "https://github.com/lahmatiy/react-render-tracker",
       "description": "A tool to discover performance issues related to unintended re-renders. Working in a team during Microsoft-organized hackathon.",
       "name": "React Render Tracker",
-      "source": "GitHub"
+      "source": "GitHub",
+      "role": "Contributor"
     },
     {
       "url": "https://burger-builder.danajanoskova.sk/",
       "description": "A small open-source app that allows you to build your own burger, supports drag&drop interaction and calculates the final price",
       "name": "Burger Builder",
-      "source": "GitHub + Netlify"
+      "source": "GitHub + Netlify",
+      "role": "Owner"
     },
     {
       "url": "https://medium.com/js-dojo/vue-js-manage-your-modal-window-s-effortlessly-using-eventbus-518977195eed",
       "description": "An article + open-source repository about Modal window management in Vue.js",
       "name": "Vue.js — Manage your Modal window(s) effortlessly using EventBus",
-      "source": "Medium"
+      "source": "Medium",
+      "role": "Author"
     },
     {
       "url": "https://gitlab.com/djanoskova/adonisjs-sockets-monorepo",
       "description": "A monorepo with working websocket communication example projects and Gitlab automatic deployment",
       "name": "AdonisJS & React sockets",
-      "source": "GitLab"
+      "source": "GitLab",
+      "role": "Owner"
     },
     {
       "url": "https://tree-data-builder.herokuapp.com/",
       "description": "A small open-source app to make data trees optimized for d3 structure quickly",
       "name": "Tree Data Builder",
-      "source": "GitHub"
+      "source": "GitHub",
+      "role": "Owner"
     },
     {
       "url": "https://itnext.io/how-i-tried-to-validate-react-forms-with-hooks-31634fc5385b",
       "description": "An article with demo dedicated to easily validating React forms with hooks",
       "name": "React form hook validator",
-      "source": "Medium"
+      "source": "Medium",
+      "role": "Author"
     },
     {
       "url": "https://flex-helper.danajanoskova.sk",
       "description": "A small open-source app to make designing flex layouts faster.",
       "name": "Flex Helper",
-      "source": "GitHub"
+      "source": "GitHub",
+      "role": "Owner"
     },
     {
       "url": "https://github.com/DJanoskova/Vuidget",
       "description": "A GitHub repository that contains an example source code for a custom HTML element Vue.js widget",
       "name": "Vuidget",
-      "source": "GitHub"
+      "source": "GitHub",
+      "role": "Owner"
     }
   ],
   "workshops": [

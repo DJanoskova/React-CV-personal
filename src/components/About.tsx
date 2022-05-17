@@ -21,7 +21,9 @@ const About: FunctionComponent<IProps> = ({ about, projects, contributions }) =>
         className="avatar rounded-full m-auto mb-4 w-52 shadow-lg"
         alt="Dana Janoskova"
       />
-      <div className="mb-4">{about}</div>
+      <div className="mb-4 whitespace-pre-wrap">{about}</div>
+      <Projects data={projects} />
+      <Contributions data={contributions} />
       <SectionWrapper title="Links">
         <a href="http://danajanoskova.sk" target="_blank" rel="noreferrer">
           danajanoskova.sk
@@ -39,8 +41,6 @@ const About: FunctionComponent<IProps> = ({ about, projects, contributions }) =>
           medium.com/@danajanoskova
         </a>
       </SectionWrapper>
-      <Projects data={projects} />
-      <Contributions data={contributions} />
     </>
   );
 };

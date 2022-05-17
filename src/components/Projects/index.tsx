@@ -10,7 +10,7 @@ type IProps = {
 
 const Projects: FunctionComponent<IProps> = ({ data }) => {
   return (
-    <SectionWrapper title="Public projects">
+    <SectionWrapper title="Public sole-owned projects">
       {data.map((project) => (
         <Project project={project} key={project.name} />
       ))}

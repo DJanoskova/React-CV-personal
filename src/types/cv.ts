@@ -3,6 +3,7 @@ export type ContributonType = {
   name: string;
   source: string;
   url: string;
+  role: string;
 };
 
 export type LanguageType = {
