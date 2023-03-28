@@ -12,7 +12,7 @@ function App() {
     <div className="">
       <HeaderGraphics />
 
-      <div className="w-[21cm] mx-auto px-16 py-14 relative">
+      <div className="w-[21cm] max-w-full mx-auto px-6 md:px-16 py-8 md:py-14 relative">
         <div className="flex justify-between items-center mb-12">
           <div>
             <Typography variant="h1">Dana Janoskova</Typography>
@@ -22,7 +22,7 @@ function App() {
           <img
             src={photo}
             alt="Dana Janoskova CV"
-            className="rounded-full w-40 h-40"
+            className="rounded-full w-40 h-40 hidden md:block"
           />
         </div>
         <div className="mb-12">

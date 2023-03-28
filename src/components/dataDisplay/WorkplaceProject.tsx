@@ -15,7 +15,7 @@ export const WorkplaceProject = ({ project }: WorkplaceProjectProps) => {
       <Typography variant="body" className="mb-2">
         {project.description}
       </Typography>
-      <div className="flex gap-2">
+      <div className="flex gap-2 flex-wrap">
         {project.stack.map((technology) => (
           <Tag key={technology}>{technology}</Tag>
         ))}
