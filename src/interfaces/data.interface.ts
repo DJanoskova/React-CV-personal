@@ -4,6 +4,7 @@ export interface CVDataType {
   workplaces: WorkplaceType[];
   projects: FreeTimeProjectType[];
   links: LinkType[];
+  skills: string[];
 }
 
 export interface WorkplaceType {

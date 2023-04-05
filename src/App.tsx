@@ -1,11 +1,12 @@
 import photo from "./assets/photo.jpeg";
+import { DATA_CV } from "./const/data.const";
 
 import { FreeTimeProject } from "./components/dataDisplay/FreeTimeProject";
 import { LinkIcon } from "./components/dataDisplay/LinkIcon";
+import { Skills } from "./components/dataDisplay/Skills";
 import { Workplace } from "./components/dataDisplay/Workplace";
 import { HeaderGraphics } from "./components/graphics/HeaderGraphics";
 import { Typography } from "./components/ui-library/Typography";
-import { DATA_CV } from "./const/data.const";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Typography variant="h1">Dana Janoskova</Typography>
             <br />
             <Typography variant="h2">Software Engineer</Typography>
+            <p className="text-sm text-gray-500 mt-2">Kolin, Czech Republic</p>
           </div>
           <img
             src={photo}
@@ -44,18 +46,28 @@ function App() {
           </p>
         </div>
 
-        {DATA_CV.workplaces.map((workplace) => (
-          <Workplace key={workplace.name} workplace={workplace} />
-        ))}
+        <Skills skills={DATA_CV.skills} />
+
+        <div>
+          <Typography variant="h2" className="mb-6">
+            Workplaces
+          </Typography>
+          {DATA_CV.workplaces.map((workplace) => (
+            <Workplace key={workplace.name} workplace={workplace} />
+          ))}
+        </div>
 
         <div className="mt-12 mb-12">
+          <Typography variant="h2" className="mb-8">
+            Projects
+          </Typography>
           <p>
             In addition to my work on larger projects, I also enjoy creating
             smaller projects that are free to use and sometimes open-source. One
             of my most popular projects is the online version of the BANG! card
-            game. Overall, I'm a passionate developer who is committed to
-            delivering excellent work and improving the lives of users through
-            great software.
+            game. I'm a passionate developer who is committed to delivering
+            excellent work and improving the lives of users through great
+            software.
           </p>
         </div>
 
