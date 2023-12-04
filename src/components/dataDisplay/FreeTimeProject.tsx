@@ -19,6 +19,7 @@ export const FreeTimeProject = ({ project }: FreeTimeProjectProps) => {
         </a>{" "}
         - <span className="text-gray-500 font-normal">{project.subtitle}</span>
       </Typography>
+      <p className="text-sm">{project.technologies}</p>
       <Typography variant="body">{project.summary}</Typography>
     </div>
   );

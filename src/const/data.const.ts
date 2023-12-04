@@ -3,9 +3,34 @@ import { CVDataType } from "../interfaces/data.interface";
 export const DATA_CV: CVDataType = {
   workplaces: [
     {
+      name: "FLYR for Hospitality",
+      position: "Senior Full-Stack Engineer",
+      startedAt: "2023-05-01",
+      projects: [
+        {
+          name: "App",
+          description:
+            "Working in a cross-functional team to develop beautiful and performant user interfaces for revenue managers as a front-end engineer. Remote pair programming, providing guidance about performance optimizations and debugging in React, contributing to more efficient PR review processes and testing new features as a part of the review process to ensure no regressions are introduced.",
+          stack: [
+            "React",
+            "Typescript",
+            "GraphQL",
+            "Vitest",
+            "React Testing Library",
+            "Playwright",
+            "OpenAI API",
+            "Mixpanel",
+            "LaunchDarkly",
+            "SendGrid",
+          ],
+        },
+      ],
+    },
+    {
       name: "Teleport.xyz",
       position: "Internal Tools / Front-end Lead",
       startedAt: "2022-10-01",
+      endedAt: "2023-05-01",
       projects: [
         {
           name: "Admin Tools",
@@ -102,29 +127,17 @@ export const DATA_CV: CVDataType = {
         },
       ],
     },
-    {
-      name: "Accenture Bratislava",
-      position: "Senior Software Engineer",
-      startedAt: "2018-09-01",
-      endedAt: "2020-04-01",
-      projects: [],
-    },
-    {
-      name: "Materna GmbH Information & Communications Bratislava",
-      position: "Software Engineer",
-      startedAt: "2017-09-01",
-      endedAt: "2018-08-01",
-      projects: [],
-    },
-    {
-      name: "Freelance",
-      position: "Full-stack developer & designer",
-      startedAt: "2014-08-01",
-      endedAt: "2017-09-01",
-      projects: [],
-    },
   ],
   projects: [
+    {
+      title: "Foodie: meals around you",
+      url: "https://apps.apple.com/cz/app/foodie-meals-around-you/id6448660115",
+      subtitle: "iOS mobile & tablet app",
+      technologies:
+        "- React Native, RN CLI, TypeScript, Apple Maps API, Supabase, PostgreSQL",
+      summary:
+        "Foodie is an application that allows you to rate meals around you, explore restaurants and cafés nearby and find out who makes your favorite meal best!",
+    },
     {
       title: "blokep.netlify.app",
       url: "https://blokep.netlify.app",
@@ -180,10 +193,12 @@ export const DATA_CV: CVDataType = {
   ],
   skills: [
     "React",
+    "React Native",
     "TypeScript",
     "NodeJS",
     "NestJS",
     "NextJs",
+    "GraphQL",
     "TailwindCSS",
     "Prisma",
     "Supabase",
@@ -199,6 +214,5 @@ export const DATA_CV: CVDataType = {
     "WebSocket",
     "Front-end data architecture & performance",
     "Photoshop",
-    "ChatGPT",
   ],
 };

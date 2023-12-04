@@ -1,4 +1,3 @@
-import photo from "./assets/photo.jpeg";
 import { DATA_CV } from "./const/data.const";
 
 import { FreeTimeProject } from "./components/dataDisplay/FreeTimeProject";
@@ -18,31 +17,26 @@ function App() {
           <div>
             <Typography variant="h1">Dana Janoskova</Typography>
             <br />
-            <Typography variant="h2">Software Engineer</Typography>
-            <p className="text-sm text-gray-500 mt-2">Kolin, Czech Republic</p>
+            <Typography variant="h2">Software Engineer - 10 YOE</Typography>
+            <p className="text-sm text-gray-500 mt-2">Prague, Czech Republic</p>
           </div>
-          <img
-            src={photo}
-            alt="Dana Janoskova CV"
-            className="rounded-full w-40 h-40 hidden md:block"
-          />
         </div>
         <div className="mb-12">
           <p>
-            I'm a full stack engineer with a front-end focus, and I'm highly
-            experienced in working with React, Typescript, and Node.js. In the
-            past, I have also worked with Vue and Flutter. I have a strong
-            commitment to delivering high-quality code that is easy to maintain
-            and performant. I'm dedicated to creating great user experiences,
-            and I always take the time to ensure that my work meets the highest
-            standards of quality, user-friendliness, and maintainability.
+            I'm a full stack engineer with a front-end focus, and I'm
+            experienced in working with React, React Native, Typescript and
+            Node.js. In the past, I have also worked with Vue and Flutter. I
+            have a strong commitment to delivering high-quality code that is
+            easy to maintain and performant.
           </p>
           <p>
             React is one of my passions, and I love staying up-to-date with the
             latest best practices. I've published a few articles on Medium to
             share my knowledge and experience with other developers. I've also
             created several open-source libraries for React and Vue.js, and I'm
-            always looking for new ways to contribute to the community.
+            always looking for new ways to contribute to the community. In the
+            past year I've also picked up React Native and published an
+            application in the App Store.
           </p>
         </div>
 
@@ -55,25 +49,34 @@ function App() {
           {DATA_CV.workplaces.map((workplace) => (
             <Workplace key={workplace.name} workplace={workplace} />
           ))}
+          <p>
+            A more extensive list of my experience is available on my{" "}
+            <a
+              href="https://www.linkedin.com/in/dana-janoskova/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              LinkedIn
+            </a>
+            .
+          </p>
         </div>
 
         <div className="mt-12 mb-12">
           <Typography variant="h2" className="mb-8">
-            Projects
+            Personal projects
           </Typography>
           <p>
-            In addition to my work on larger projects, I also enjoy creating
-            smaller projects that are free to use and sometimes open-source. One
-            of my most popular projects is the online version of the BANG! card
-            game. I'm a passionate developer who is committed to delivering
-            excellent work and improving the lives of users through great
-            software.
+            In addition to my full-time work, I also enjoy creating smaller
+            projects that are free to use and sometimes open-source. One of my
+            most popular projects is the online version of the BANG! card game.
           </p>
         </div>
 
         <div className="flex flex-col gap-4">
           {DATA_CV.projects.map((project) => (
-            <FreeTimeProject project={project} />
+            <FreeTimeProject project={project} key={project.title} />
           ))}
         </div>
 

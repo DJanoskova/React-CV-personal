@@ -30,9 +30,9 @@ export const Typography = ({
 
   const classes = clsx(
     {
-      'text-3xl font-semibold uppercase relative inline-block mb-4 after:content-[""] after:h-[1px] after:w-full after:-bottom-2 after:bg-gray-900 after:absolute after:left-0':
+      'text-4xl font-semibold uppercase relative inline-block mb-4 after:content-[""] after:h-[1px] after:w-full after:-bottom-2 after:bg-gray-900 after:absolute after:left-0':
         variant === "h1",
-      "text-xl uppercase inline-block text-gray-500 tracking-[0.21em]":
+      "text-lg uppercase inline-block text-gray-500 tracking-[0.14em]":
         variant === "h2",
       "text-body uppercase font-semibold": variant === "h4",
       "text-sm text-gray-600": variant === "body",
